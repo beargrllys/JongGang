@@ -8,6 +8,7 @@
 
 *{
     font-family: 'SBAggroB', serif;
+    text-align: center;
 }
 
 .title{
@@ -16,6 +17,7 @@
 
 .category{
     text-align: center;
+    font-size: 25px;
 }
 
 .mobile{
@@ -26,6 +28,13 @@
     text-align: center;
     font-size: 60px;
 }
+
+.ClastTime{
+    text-align: center;
+    font-size: 60px;
+}
+
+input { width: 100%; padding: 10px 20px; margin: 5px 0; box-sizing: border-box; font-size: 20px;}
 
 @media ( max-width: 768px ) {
     .mobile{
@@ -38,5 +47,9 @@
     .category{
         text-align: center;
         font-size: 15px;
+    }
+    .ClastTime{
+        text-align: center;
+        font-size: 40px;
     }
   }
