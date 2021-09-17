@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'SBAggroB', serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.category{
+    text-align: center;
+}
+
+.mobile{
+    text-align: center;
+}
+
+.lastTime{
+    text-align: center;
+    font-size: 60px;
+}
+
+@media ( max-width: 768px ) {
+    .mobile{
+        display: none;
+    }
+    .lastTime{
+        text-align: center;
+        font-size: 20px;
+    }
+    .category{
+        text-align: center;
+        font-size: 15px;
+    }
+  }
